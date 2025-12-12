@@ -1,0 +1,38 @@
+# 🔒 SECURITY — NEVER UPLOAD SECRETS
+*.key
+*.pem
+*.p12
+*.env
+*.cred
+*.passwd
+*.secret
+id_rsa
+id_rsa.pub
+
+# ⚙️ SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+# 🧪 VIRTUAL ENVIRONMENTS (Python)
+venv/
+env/
+__pycache__/
+*.pyc
+
+# 🐧 LINUX & SYSTEM LOGS
+*.log
+/var/log/*
+*.journal
+
+# 📦 PACKAGE FILES
+node_modules/
+*.zip
+*.tar
+*.gz
+
+# 🧰 EDITOR SETTINGS
+.vscode/
+.idea/
+
+# 🖥 OPERATING SYSTEM FOLDERS
+Desktop.ini
